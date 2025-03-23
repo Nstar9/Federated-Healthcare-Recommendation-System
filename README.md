@@ -1,6 +1,5 @@
 
 
-```markdown
 # 🩺 Federated Healthcare Recommender System - Heart Disease Prediction
 
 ## ✅ Project Overview
