@@ -1,4 +1,4 @@
-Of course! Here's a **GitHub-friendly, clean, and properly formatted `README.md`** ready to copy-paste directly:  
+ 
 
 ```markdown
 # 🩺 Federated Healthcare Recommender System - Heart Disease Prediction
@@ -132,15 +132,9 @@ streamlit run streamlit_app/heart_predictor_app.py
 ---
 
 ## 🔥 Author
-👨‍💻 **Niraj Patil (Nirha)**  
+👨‍💻 **Niraj Patil **  
 *This project showcases end-to-end ML pipeline development, with a future vision of privacy-preserving healthcare systems.*
 
 ---
 ```
 
----
-
-✅ **Paste this directly into your GitHub README.md — it’s optimized for formatting, sections, and readability.**  
-✅ **Links, bash commands, code snippets, and folder structure will render cleanly.**  
-
-Let me know if you want to add badges or a LinkedIn/YouTube video link later!
