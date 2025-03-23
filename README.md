@@ -1,4 +1,4 @@
- 
+
 
 ```markdown
 # 🩺 Federated Healthcare Recommender System - Heart Disease Prediction
@@ -10,15 +10,15 @@ It integrates:
 - Exploratory Visualizations
 - Model Building with Hyperparameter Tuning
 - Streamlit Interactive Web App (for predictions)
-- 📌 Future-ready for **Federated Learning Simulation** to protect patient data privacy.
+- 🔐 Future-ready for **Federated Learning Simulation** to protect patient data privacy.
 
 ---
 
 ## 📂 Dataset Details
-- **Source:** [Kaggle - Heart Disease Dataset](https://www.kaggle.com/datasets)
+- **Source:** [Kaggle – Heart Disease Dataset](https://www.kaggle.com/datasets)
 - **Records:** 1025 patient records
 - **Features:** 13 clinical attributes (age, blood pressure, cholesterol, chest pain type, etc.)
-- **Target:** 
+- **Target:**
   - `1` (Heart Disease Present)
   - `0` (No Heart Disease)
 
@@ -29,40 +29,32 @@ It integrates:
 ## 🤖 Machine Learning Models & Results
 
 | Model                | Accuracy | Notes                                          |
-|----------------------|---------|-----------------------------------------------|
+|----------------------|---------|-------------------------------------------------|
 | Logistic Regression  | 74.14%  | Baseline model                                 |
-| Random Forest (Tuned)| 100%    | Hyperparameter tuned (Potential Overfitting)   |
+| Random Forest (Tuned)| 100%    | Hyperparameter tuned, potential overfitting    |
 
-✅ **Grid Search Cross-Validation Accuracy:**  
-- Logistic Regression: **80.59%**
-
-✅ **Models Saved:** `.pkl` files ready for deployment.
+- ✅ Grid Search Tuning applied to Random Forest
+- ✅ Cross-validation score for Logistic Regression: **80.59%**
+- ✅ Models saved as `.pkl` files for deployment
 
 ---
 
 ## 📈 Visualizations
-✅ Correlation Heatmap  
-✅ Confusion Matrix  
-✅ Feature Importance Plot (Random Forest)
+- Correlation Heatmap
+- Confusion Matrix
+- Feature Importance Plot (Random Forest)
 
-_All visualizations are saved in the `visualizations/` folder._
-
----
-
-## 🌐 Deployment (Streamlit App)
-✅ **Interactive Streamlit Web App for real-time predictions**
-
-📌 *Run the app:*  
-```bash
-streamlit run streamlit_app/heart_predictor_app.py
-```
-
-✅ **API Ready:** Optional FastAPI backend (can be added later)  
-✅ **Docker-Ready:** Future deployment scope
+✅ **All visualizations styled and saved for analysis.**
 
 ---
 
-## 🛠 Folder Structure
+## ⚙️ API & Docker (Planned)
+- ✅ **API Ready:** Optional FastAPI backend (can be added later)
+- ✅ **Docker-Ready:** Future deployment scope
+
+---
+
+## 🗂 Folder Structure
 ```
 federated-healthcare-recommender/
 │
@@ -87,14 +79,14 @@ federated-healthcare-recommender/
 ├── streamlit_app/             # Streamlit interactive web app
 │   └── heart_predictor_app.py
 │
-├── docs/                      # Documentation (Coming)
-└── README.md                  # Project Overview
+└── README.md                  # Project overview
 ```
 
 ---
 
 ## 🚀 How to Run the Project
-### ⚙️ Preprocessing & Model Training
+
+### 🔧 Preprocessing & Model Training
 ```bash
 python preprocessing/data_preprocessing.py
 python preprocessing/ml_model.py
@@ -106,35 +98,35 @@ python preprocessing/tuned_model.py
 python visualizations/visualize.py
 ```
 
-### 🌐 Run the Streamlit Web App
+### 🌐 Streamlit App (for predictions)
 ```bash
 streamlit run streamlit_app/heart_predictor_app.py
 ```
 
 ---
 
-## 💪 Next Steps (Planned)
-✅ Complete Streamlit Deployment  
-✅ Add Federated Learning Simulation  
-✅ Dockerize the Application  
-✅ Video Demo + LinkedIn Post  
+## 🔥 Future Work
+- ✅ Streamlit App Completed ✅
+- ✅ Federated Learning Split Simulation Ready ✅
+- ✅ Deployment Ready (Docker + API next)
+- 🎥 Video demo + LinkedIn post (Coming soon)
 
 ---
 
 ## 📚 Skills Demonstrated
-✅ Machine Learning (Logistic Regression, Random Forest)  
-✅ Data Preprocessing & Cleaning  
-✅ Hyperparameter Tuning (Grid Search CV)  
-✅ Model Evaluation & Interpretability  
-✅ Deployment-Ready Pipeline  
+✅ Machine Learning  
+✅ Data Preprocessing  
+✅ Hyperparameter Tuning  
+✅ Model Evaluation  
+✅ Deployment Readiness  
 ✅ Federated Learning Concept  
 
 ---
 
-## 🔥 Author
+## ✨ Author
 👨‍💻 **Niraj Patil **  
-*This project showcases end-to-end ML pipeline development, with a future vision of privacy-preserving healthcare systems.*
+*.*
+```
 
 ---
-```
 
